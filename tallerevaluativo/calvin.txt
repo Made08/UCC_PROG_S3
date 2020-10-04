@@ -1,0 +1,10 @@
+INICIO
+1. Calvin realizar una llamada
+2. Decide tomar un curso 
+3. Debe tener conocimiento de dos materias 
+4. Le indican que debe tener un alto desempeño académico 
+5. Calvin omite lo indicado 
+6. Se le exige debe estudiar matemáticas y algoritmos
+7. Tiene duda sobre la entrega de libretas 
+Fin 
+

@@ -11,9 +11,3 @@ Proceso Mundo_Algoritmos
 	Escribir " Cantidad de monedas asisgnadas a D; ", D; 
 	
 FinProceso
-
-
-*** Ejecución Iniciada. ***
- Cantidad de monedas asisgnadas a A; 7
- Cantidad de monedas asisgnadas a D; 1
-*** Ejecución Finalizada. ***

@@ -1,39 +1,39 @@
-package co.edu.campusucc;
+package co.edu.campuscc;
 
 import java.util.Scanner;
 
-public class Ejercicio11 {
+public class Ejercicio_08 {
 	public static void main(String[] args) {
+		
+		
 		System.out.println("  __♥_                                      __♥__");
 		System.out.println(" ( ___ )-------´*•.¸(*•.¸♥¸.•*´)¸.•*´----- ( ___ )");
 		System.out.println("  | ♥ |  ╔════════════════════════════════╗ | ♥ |");
 		System.out.println("  | ♥ |  ║  AUTOR:  MADELEM CHICO VELASCO ║ | ♥ |");
-		System.out.println("  | ♥ |  ║   FECHA:    31-OCTUBRE-2020    ║ | ♥ |");
+		System.out.println("  | ♥ |  ║   FECHA:   14-NOVIEMBRE-2020   ║ | ♥ |");
 		System.out.println("  | ♥ |  ║      PROGRAMA DE ING. SISTEMAS ║ | ♥ |");
 		System.out.println("  | ♥ |  ║             ID: 759383         ║ | ♥ |");
 		System.out.println("  |___|  ╚════════════════════════════════╝ |___|");
 		System.out.println(" (_____)-------.¸.•*(¸.•*´♥`*•.¸)`*•. -----(_____)");
-
+		
 		Scanner leer = new Scanner(System.in);
+		
+	     int contador, primo, numero;
 
-		double DigiteN, Porcentaje, Calvin, Hobbes, Hobbestotal;
+	     System.out.print(" DIGITE UN NUMERO: ");
+	     numero = leer.nextInt();
 
-		System.out.println("DIGITE LAS N CANTIDAD DE ACEITR DE OLIVA");
-		DigiteN = leer.nextInt();
+	     contador = 0;
+	     for(primo = 1; primo <= numero; primo++)
+	     {
+	         if((numero % primo) == 0){
+	             contador++;}
+	     }
 
-		Porcentaje = 0.66666667;
-
-		Hobbes = DigiteN;
-
-		Hobbestotal = Hobbes * Porcentaje;
-
-		Calvin = Hobbes - Hobbestotal;
-
-		System.out.println("TOTAL DE ACEITE: " + DigiteN);
-
-		System.out.println("PRODUCCION DE CALVIN : " + Calvin);
-
-		System.out.println("PRODUCCION DE HOBBLES: " + Hobbestotal);
+	     if(contador <= 2){
+	         System.out.println(numero+ ":ESTE NUMERO ES PRIMO ");}
+	         else{
+	         System.out.println(" ESTE NO ES UN NUMERO PRIMO");}
 
 	}
 }

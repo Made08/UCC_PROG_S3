@@ -13,29 +13,28 @@ public class Ejercicio_09 {
 		System.out.println("  | ♥ |  ║             ID: 759383         ║ | ♥ |");
 		System.out.println("  |___|  ╚════════════════════════════════╝ |___|");
 		System.out.println(" (_____)-------.¸.•*(¸.•*´♥`*•.¸)`*•. -----(_____)");
-		
-		Scanner leer = new Scanner (System.in);
-		
-		int Numero1,Numero3,Numero2,Sume,Numero4;
-		
-		
+
+		Scanner leer = new Scanner(System.in);
+
+		int Numero1, Numero3, Numero2, Sume, Numero4;
+
 		System.out.println("INGRESE EL NUMERO 1");
 		Numero1 = leer.nextInt();
 		System.out.println("INGRESE EL NUMERO 2");
 		Numero2 = leer.nextInt();
-		
+
 		System.out.println("INGRESE EL NUMERO 3");
 		Numero3 = leer.nextInt();
-		
+
 		System.out.println("INGRESE EL NUMERO 4");
 		Numero4 = leer.nextInt();
-		
-		Sume = Numero4+Numero3+Numero1+Numero2;
-		
-		
-		System.out.println("LA SUMA DE "+ Numero1 + " + " + Numero2 + " + " + Numero3 + " + " + Numero4 + " es: " + Sume);
-		System.out.println("NUMERO : "+ Numero1  + Numero2  + Numero3 +  Numero4 + " ..... LA SUMA ES : " + Sume);
+
+		Sume = Numero4 + Numero3 + Numero1 + Numero2;
+
+		System.out.println(
+				"LA SUMA DE " + Numero1 + " + " + Numero2 + " + " + Numero3 + " + " + Numero4 + " es: " + Sume);
+		System.out.println("NUMERO : " + Numero1 + Numero2 + Numero3 + Numero4 + " ..... LA SUMA ES : " + Sume);
 		System.out.println(Sume);
-	
+
 	}
 }

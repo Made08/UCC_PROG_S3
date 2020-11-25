@@ -15,7 +15,7 @@ public class Ejercicio_3 {
 		System.out.println(" (_____)-------.¸.•*(¸.•*´♥`*•.¸)`*•. -----(_____)");
 
 		Scanner leer = new Scanner(System.in);
-		
+
 		double Numero1, Numero2, Numero3, Nota1, Nota2, Nota3;
 		double NotaDefinitiva;
 

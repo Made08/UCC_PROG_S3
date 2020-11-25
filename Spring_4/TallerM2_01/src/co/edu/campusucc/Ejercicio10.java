@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicio10 {
 	public static void main(String[] args) {
-		
+
 		System.out.println("  __♥_                                      __♥__");
 		System.out.println(" ( ___ )-------´*•.¸(*•.¸♥¸.•*´)¸.•*´----- ( ___ )");
 		System.out.println("  | ♥ |  ╔════════════════════════════════╗ | ♥ |");
@@ -14,27 +14,25 @@ public class Ejercicio10 {
 		System.out.println("  | ♥ |  ║             ID: 759383         ║ | ♥ |");
 		System.out.println("  |___|  ╚════════════════════════════════╝ |___|");
 		System.out.println(" (_____)-------.¸.•*(¸.•*´♥`*•.¸)`*•. -----(_____)");
-		
-		Scanner leer = new Scanner (System.in);
-		
+
+		Scanner leer = new Scanner(System.in);
+
 		int Absoluto, Total, Numero1;
-		
+
 		System.out.println(" DIGITE EL NUMERO PARA DAR EL VALOR ADSOLUTO ");
 		Numero1 = leer.nextInt();
-		
+
 		Absoluto = Numero1;
-		
-		
+
 		if (Absoluto < 0) {
-			
-			
+
 			Total = Absoluto * (-1);
-		 
+
 		} else {
-		  Total = Absoluto * 1;
+			Total = Absoluto * 1;
 		}
-		 System.out.println("NUMERO NORMAL ES : "+ Absoluto);
-		 System.out.println("EL NUMERO ABSOLUTO ES : "+ Total);
+		System.out.println("NUMERO NORMAL ES : " + Absoluto);
+		System.out.println("EL NUMERO ABSOLUTO ES : " + Total);
 
 	}
 }

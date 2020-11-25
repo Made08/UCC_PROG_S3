@@ -1,9 +1,10 @@
-package co.edu.campusucc;
+package co.edu.campuscc;
 
 import java.util.Scanner;
 
-public class Ejercicio11 {
+public class Ejercicio_04 {
 	public static void main(String[] args) {
+		
 		System.out.println("  __♥_                                      __♥__");
 		System.out.println(" ( ___ )-------´*•.¸(*•.¸♥¸.•*´)¸.•*´----- ( ___ )");
 		System.out.println("  | ♥ |  ╔════════════════════════════════╗ | ♥ |");
@@ -13,27 +14,25 @@ public class Ejercicio11 {
 		System.out.println("  | ♥ |  ║             ID: 759383         ║ | ♥ |");
 		System.out.println("  |___|  ╚════════════════════════════════╝ |___|");
 		System.out.println(" (_____)-------.¸.•*(¸.•*´♥`*•.¸)`*•. -----(_____)");
-
-		Scanner leer = new Scanner(System.in);
-
-		double DigiteN, Porcentaje, Calvin, Hobbes, Hobbestotal;
-
-		System.out.println("DIGITE LAS N CANTIDAD DE ACEITR DE OLIVA");
-		DigiteN = leer.nextInt();
-
-		Porcentaje = 0.66666667;
-
-		Hobbes = DigiteN;
-
-		Hobbestotal = Hobbes * Porcentaje;
-
-		Calvin = Hobbes - Hobbestotal;
-
-		System.out.println("TOTAL DE ACEITE: " + DigiteN);
-
-		System.out.println("PRODUCCION DE CALVIN : " + Calvin);
-
-		System.out.println("PRODUCCION DE HOBBLES: " + Hobbestotal);
+		
+		Scanner leer = new Scanner (System.in);
+		
+		int Empleado1, Numero1, Salario, Descuento;
+		double ValoraPagar;
+		
+		    
+			System.out.println("CUAL ES EL VALOR DE SU SALARIO"); 
+			Empleado1 = leer.nextInt();
+		
+			System.out.println("\"CUAL ES DESCUENTO DEL SALARIO"); 
+			Numero1 = leer.nextInt();
+			
+			Salario = Empleado1; 
+			Descuento = Numero1;
+			 ValoraPagar= Salario - Descuento;
+			 
+			 System.out.println ("VALOR A PAGAR ES:"+ ValoraPagar);
+			 
 
 	}
 }

@@ -1,9 +1,10 @@
-package co.edu.campusucc;
+package co.edu.campuscc;
 
 import java.util.Scanner;
 
-public class Ejercicio11 {
+public class Ejercicio_02 {
 	public static void main(String[] args) {
+		
 		System.out.println("  __♥_                                      __♥__");
 		System.out.println(" ( ___ )-------´*•.¸(*•.¸♥¸.•*´)¸.•*´----- ( ___ )");
 		System.out.println("  | ♥ |  ╔════════════════════════════════╗ | ♥ |");
@@ -16,24 +17,19 @@ public class Ejercicio11 {
 
 		Scanner leer = new Scanner(System.in);
 
-		double DigiteN, Porcentaje, Calvin, Hobbes, Hobbestotal;
+		int Numero1, Numero2, Resultado1, Resultado2;
 
-		System.out.println("DIGITE LAS N CANTIDAD DE ACEITR DE OLIVA");
-		DigiteN = leer.nextInt();
+		System.out.println("INGRESE EL PRIMER NUMERO ");
+		Numero1 = leer.nextInt();
+		System.out.println("INGRESE EL SEGUNDO NUMERO ");
+		Numero2 = leer.nextInt();
 
-		Porcentaje = 0.66666667;
+		Resultado1 = Numero1 * Numero1 * Numero1;
+		Resultado2 = Numero2 * Numero2 * Numero2;
 
-		Hobbes = DigiteN;
-
-		Hobbestotal = Hobbes * Porcentaje;
-
-		Calvin = Hobbes - Hobbestotal;
-
-		System.out.println("TOTAL DE ACEITE: " + DigiteN);
-
-		System.out.println("PRODUCCION DE CALVIN : " + Calvin);
-
-		System.out.println("PRODUCCION DE HOBBLES: " + Hobbestotal);
+		System.out.println(" EL CUBO DE " + Numero1 + " ES: " + Resultado1);
+		System.out.println(" EL CUBO DE " + Numero2 + " :" + Resultado2);
+	
 
 	}
 }

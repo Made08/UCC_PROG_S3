@@ -1,5 +1,7 @@
 package co.edu.campusucc;
-import java.ultil.S
+
+import java.util.Scanner;
+
 public class ProgramaInManual001 {
 	public static void main(String[] args) {
 		System.out.println(" 88888888888888888888888888888888888888888");
@@ -17,6 +19,7 @@ public class ProgramaInManual001 {
 		System.out.println("-+++++++++++++++++++++++++++++++++++++++++");
 		
 		String numero = "";
-		Scanner Scan = new Scanner (System.in)
+		Scanner Scan = new Scanner (System.in);
 				
+	}
 }

@@ -1,39 +1,41 @@
-package co.edu.campusucc;
+package co.edu.campuscc;
 
-import java.util.Scanner;
+import java.util.Random;
 
-public class Ejercicio11 {
+public class Ejercicio_13 {
 	public static void main(String[] args) {
+		
 		System.out.println("  __♥_                                      __♥__");
 		System.out.println(" ( ___ )-------´*•.¸(*•.¸♥¸.•*´)¸.•*´----- ( ___ )");
 		System.out.println("  | ♥ |  ╔════════════════════════════════╗ | ♥ |");
 		System.out.println("  | ♥ |  ║  AUTOR:  MADELEM CHICO VELASCO ║ | ♥ |");
-		System.out.println("  | ♥ |  ║   FECHA:    31-OCTUBRE-2020    ║ | ♥ |");
+		System.out.println("  | ♥ |  ║   FECHA:   14-NOVIEMBRE-2020   ║ | ♥ |");
 		System.out.println("  | ♥ |  ║      PROGRAMA DE ING. SISTEMAS ║ | ♥ |");
 		System.out.println("  | ♥ |  ║             ID: 759383         ║ | ♥ |");
 		System.out.println("  |___|  ╚════════════════════════════════╝ |___|");
 		System.out.println(" (_____)-------.¸.•*(¸.•*´♥`*•.¸)`*•. -----(_____)");
+		
+		boolean condicion = false;
 
-		Scanner leer = new Scanner(System.in);
+		do {
 
-		double DigiteN, Porcentaje, Calvin, Hobbes, Hobbestotal;
+			Random random = new Random();
+			int intRandom = random.nextInt(1000); 
+			condicion = true;
 
-		System.out.println("DIGITE LAS N CANTIDAD DE ACEITR DE OLIVA");
-		DigiteN = leer.nextInt();
+			int contador, i, numero;
+			numero = intRandom;
+			contador = 0;
 
-		Porcentaje = 0.66666667;
+			for (i = 1; i <= numero; i++){
+				if ((numero % i) == 0){
+					contador++;}
+				}
 
-		Hobbes = DigiteN;
-
-		Hobbestotal = Hobbes * Porcentaje;
-
-		Calvin = Hobbes - Hobbestotal;
-
-		System.out.println("TOTAL DE ACEITE: " + DigiteN);
-
-		System.out.println("PRODUCCION DE CALVIN : " + Calvin);
-
-		System.out.println("PRODUCCION DE HOBBLES: " + Hobbestotal);
+			if (contador <= 2)
+				condicion = false;
+			System.out.println("EL NUMERO:" + intRandom + " TERMINARA CUANDO ES PRIMO");
+			} while (condicion);
 
 	}
 }
